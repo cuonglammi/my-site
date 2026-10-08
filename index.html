@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111211">
+    <title>Levi Vo — Software Developer</title>
+    <meta name="description" content="Levi Vo, Software Development student at Mohawk College. Explore web, mobile, networking, and AI quality assurance projects.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23111211'/%3E%3Cpath d='M12 10v20h17' fill='none' stroke='%23e5b79a' stroke-width='5'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+<!-- Skip to Content Navigation -->
+<a class="skip" href="#work">Skip to projects</a>
+
+<!-- Header Navigation -->
+<header>
+    <a class="brand" href="#home">levi<span>.</span></a>
+    <nav aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact <span>↗</span></a>
+    </nav>
+    <a class="header-resume" href="Levi_resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="eyebrow">
+                <span class="dot"></span> HAMILTON, ON · SOFTWARE DEVELOPER
+            </div>
+            <h1>Curiosity.<br>Code.<br><em>Real impact.</em></h1>
+            <p class="hero-copy">
+                I’m Levi Vo. I build thoughtful web and mobile experiences, investigate real-world systems, and care about the details that make software reliable.
+            </p>
+            <div class="actions">
+                <a class="button primary" href="#work">Explore my work <span>↗</span></a>
+                <a class="text-link" href="https://github.com/cuonglammi" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </div>
+
+        <div class="visual">
+            <div class="visual-top">
+                <span>THE DEVELOPER’S ORBIT</span>
+                <span>01 / INTERACTIVE</span>
+            </div>
+            <canvas id="orbit" aria-label="Interactive 3D geometric sphere with orbiting nodes. Drag to rotate." role="img"></canvas>
+            <div class="orbit-label label-a">BUILD <span>↗</span></div>
+            <div class="orbit-label label-b">TEST <span>↗</span></div>
+            <div class="orbit-label label-c">REFINE <span>↗</span></div>
+            <div class="visual-bottom">
+                <span>DRAG TO EXPLORE</span>
+                <button id="motion" type="button" aria-pressed="false">Pause motion Ⅱ</button>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <span>OPEN TO DEVELOPMENT &amp; QA OPPORTUNITIES</span>
+            <a href="#work">SCROLL TO DISCOVER ↓</a>
+        </div>
+    </section>
+
+    <!-- Credentials Bar -->
+    <div class="credentials">
+        <div>
+            <span class="credential-icon">✦</span>
+            <div><small>Mohawk College</small></div>
+        </div>
+        <div>
+            <strong>Software Development</strong>
+            <small>Advanced Diploma · Expected Jan 2027</small>
+        </div>
+        <div>
+            <strong>AI Research Assistant</strong>
+            <small>IDEA WORKS · Mohawk College</small>
+        </div>
+    </div>
+
+    <!-- Selected Work / Projects -->
+    <section id="work" class="section">
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">01 / SELECTED WORK</span>
+                <h2>Ideas, made tangible<span>.</span></h2>
+            </div>
+            <p>From the kitchen floor to network diagnostics.<br>Software built around real problems.</p>
+        </div>
+
+        <div class="project-grid">
+            <!-- Project 1: Sushi Order App -->
+            <article class="project featured">
+                <div class="project-art sushi-art" aria-hidden="true">
+                    <div class="mock-window">
+                        <div class="mock-top">
+                            <span>● ● ●</span>
+                            <span>SUSHI / ORDER MANAGEMENT</span>
+                        </div>
+                        <div class="mock-content">
+                            <div class="mock-sidebar">
+                                <b>S.</b>
+                                <span>Overview</span>
+                                <span class="active">Kitchen</span>
+                                <span>Tables</span>
+                            </div>
+                            <div class="mock-main">
+                                <span class="micro">KITCHEN DASHBOARD</span>
+                                <h3>Service in sync.</h3>
+                                <div class="order-rows">
+                                    <div><b>Table 04</b><span class="pill">PREPARING</span></div>
+                                    <div><b>Table 07</b><span class="pill green">COMPLETED</span></div>
+                                    <div><b>Table 12</b><span class="pill">PREPARING</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="art-caption">INTERFACE CONCEPT</span>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span>01 / WEB APPLICATION</span>
+                        <span>React · TypeScript</span>
+                    </div>
+                    <h3>Sushi Order App <span>↗</span></h3>
+                    <p>A connected ordering workflow for customers, servers, and the kitchen. Manage 12 tables, browse 15+ dishes, and keep preparation status visible across dashboards.</p>
+                    <details>
+                        <summary>Explore the project <span>+</span></summary>
+                        <div class="detail">
+                            <p><b>The problem</b><br>Restaurant teams need a clear handoff between placing an order and serving it.</p>
+                            <p><b>My work</b><br>Built the customer ordering experience and separate server and kitchen dashboards with preparing and completed states.</p>
+                            <p><b>Focus</b><br>Component-based UI, operational clarity, and reliable order status.</p>
+                            <a href="https://github.com/cuonglammi/sushi-order-app" target="_blank" rel="noopener">View source on GitHub ↗</a>
+                        </div>
+                    </details>
+                </div>
+            </article>
+
+            <!-- Project 2: IguanaNet Diagnostic Tool -->
+            <article class="project">
+                <div class="project-art diagnostic-art" aria-hidden="true">
+                    <div class="terminal">
+                        <div><i></i> IGUANANET / DIAGNOSTICS</div>
+                        <p><span>→</span> scanning nearby networks</p>
+                        <p><span>→</span> measuring signal strength</p>
+                        <p><span>→</span> checking HTTP latency</p>
+                        <pre>{
+  "report": "structured JSON",
+  "device": "Pi Zero 2 W"
+}</pre>
+                        <span class="terminal-end">REPRODUCIBLE. TRACEABLE. ACTIONABLE.</span>
+                    </div>
+                    <span class="art-caption">DIAGNOSTIC WORKFLOW CONCEPT</span>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span>02 / SYSTEMS &amp; NETWORKING</span>
+                        <span>Python · Raspberry Pi</span>
+                    </div>
+                    <h3>IguanaNet Diagnostic Tool</h3>
+                    <p>A portable connectivity diagnostic agent with SSID scanning, signal measurements, HTTP latency checks, and structured reports for support handoff.</p>
+                    <details>
+                        <summary>Explore the project <span>+</span></summary>
+                        <div class="detail">
+                            <p><b>The problem</b><br>Connectivity issues are harder to investigate when test steps and support reports are inconsistent.</p>
+                            <p><b>My work</b><br>Built a Raspberry Pi Zero 2 W diagnostic agent and standardized reproducible steps and JSON outputs.</p>
+                            <p><b>Focus</b><br>Root-cause investigation, repeatable validation, and useful support documentation.</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
+
+            <!-- Project 3: GitHub Deployment Tracker -->
+            <article class="project">
+                <div class="project-art tracker-art" aria-hidden="true">
+                    <div class="tracker">
+                        <div class="tracker-heading">
+                            <span>↗</span>
+                            <small>REPOSITORY PULSE</small>
+                        </div>
+                        <div class="chart">
+                            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="tracker-bottom">
+                            <span>COMMITS</span>
+                            <span>REPOSITORIES</span>
+                            <span>ACTIVITY</span>
+                        </div>
+                    </div>
+                    <span class="art-caption">DASHBOARD CONCEPT</span>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span>03 / DEVELOPER TOOLS</span>
+                        <span>React · REST API</span>
+                    </div>
+                    <h3>GitHub Deployment Tracker</h3>
+                    <p>A responsive dashboard that brings commit activity and repository metadata into one view, with loading and error states built into the experience.</p>
+                    <details>
+                        <summary>Explore the project <span>+</span></summary>
+                        <div class="detail">
+                            <p><b>My work</b><br>Integrated GitHub’s REST API, built reusable React components, and used CSS Grid and Flexbox for responsive layouts.</p>
+                            <p><b>Focus</b><br>API integration, reliable async states, Git branching, pull requests, and clear setup documentation.</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
+
+            <!-- Project 4: RxAssist Mobile -->
+            <article class="project">
+                <div class="project-art mobile-art" aria-hidden="true">
+                    <div class="phone">
+                        <div class="notch"></div>
+                        <small>RxAssist</small>
+                        <h3>A little more<br>peace of mind.</h3>
+                        <div class="mobile-card">
+                            <span>✚</span>
+                            <b>Medication tracking</b>
+                            <small>Your routine, organized.</small>
+                        </div>
+                        <div class="mobile-card">
+                            <span>▦</span>
+                            <b>Appointments</b>
+                            <small>Keep your plans together.</small>
+                        </div>
+                    </div>
+                    <div class="mobile-circle"></div>
+                    <span class="art-caption">MOBILE INTERFACE CONCEPT</span>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span>04 / MOBILE PROTOTYPE</span>
+                        <span>React Native · JavaScript</span>
+                    </div>
+                    <h3>RxAssist Mobile</h3>
+                    <p>A medication and appointment tracking prototype with validated forms, component-based screens, and persistent user flows.</p>
+                    <details>
+                        <summary>Explore the project <span>+</span></summary>
+                        <div class="detail">
+                            <p><b>My work</b><br>Designed stateful interactions, navigation, and reliable data entry for medication and appointment tracking.</p>
+                            <p><b>Focus</b><br>Mobile usability, form validation, and continuity across user flows.</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
+        </div>
+
+        <!-- Additional Projects -->
+        <div class="more-work">
+            <span>ALSO BUILT</span>
+            <p><b>ASP.NET real-time chat</b> · Chat rooms supporting 100+ users</p>
+            <p><b>MyEdMaster</b> · Self-assessment tools for 100+ students</p>
+            <p><b>Python Discord bot</b> · League of Legends patch updates for 20+ members</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="about-intro">
+            <span class="eyebrow">02 / A LITTLE ABOUT ME</span>
+            <h2>A builder’s mindset.<br><em>A support-first instinct.</em></h2>
+            <p>My path into development includes troubleshooting devices, helping students get connected, and building applications people can use. That background shapes how I write software: understand the problem, make it work, and verify the details.</p>
+            <a class="text-link" href="Levi_resume.pdf" target="_blank" rel="noopener">Read my full résumé ↗</a>
+        </div>
+
+        <div class="experience">
+            <div class="experience-row">
+                <span>2025 — PRESENT</span>
+                <h3>Junior AI Research Assistant</h3>
+                <small>IDEA WORKS · Mohawk College</small>
+                <p>Prepare source materials, validate AI responses against approved resources, test system outputs, and document quality assurance results.</p>
+            </div>
+            <div class="experience-row">
+                <span>EXPECTED JAN 2027</span>
+                <h3>Advanced Diploma, Software Development</h3>
+                <small>Mohawk College · Hamilton, Ontario</small>
+                <p>Building on a Software Support diploma completed in April 2025.</p>
+            </div>
+            <div class="experience-row">
+                <span>COMMUNITY &amp; LEADERSHIP</span>
+                <h3>Orientation Ambassador</h3>
+                <small>Mohawk College · September 2024</small>
+                <p>Helped 50+ new students set up accounts and navigate Canvas, Wi-Fi, and mobile applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toolkit / Skills Section -->
+    <section class="skills section">
+        <span class="eyebrow">03 / MY TOOLKIT</span>
+        <div class="skills-grid">
+            <div>
+                <h3>Build</h3>
+                <p>Python · JavaScript · TypeScript<br>React · React Native · ASP.NET<br>Java · C# · SQL · PHP<br>HTML5 · CSS3 · C++ coursework</p>
+            </div>
+            <div>
+                <h3>Investigate</h3>
+                <p>REST APIs · JSON · Logging<br>Bug reproduction · Test planning<br>TCP/IP · DNS · HTTP(S)<br>Wireshark · VLANs</p>
+            </div>
+            <div>
+                <h3>Collaborate</h3>
+                <p>Git · GitHub · Pull requests<br>VS Code · Chrome DevTools<br>Figma · Documentation<br>AI content validation · QA</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <span class="eyebrow"><span class="dot"></span> LET’S BUILD SOMETHING USEFUL</span>
+        <h2>Your next developer<br>it could be <em>one hello away.</em></h2>
+        <a class="button primary" href="mailto:ly-truong-huy.vo@mohawkcollege.ca">Get in touch <span>↗</span></a>
+        <div class="contact-bottom">
+            <span>Based in Hamilton, Ontario.<br>Interested in development, testing, and production support.</span>
+            <div>
+                <a href="https://github.com/cuonglammi" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/ly-truong-huy-vo" target="_blank" rel="noopener">LinkedIn ↗</a>
+                <a href="Levi_resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <a class="brand" href="#home">levi<span>.</span></a>
+    <span>LY TRUONG HUY (LEVI) VO</span>
+    <a href="#home">BACK TO TOP ↑</a>
+</footer>
+</body>
+</html>
